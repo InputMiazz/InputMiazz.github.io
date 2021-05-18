@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+
+    body {
+      background: url(dora.jpg);
+      background-repeat: no-repeat;
+      background-size: 85vw;
+      background-position: top;
+}
+
+    #buttonid{
+
+      margin-left: 43.5vw;
+      margin-top: 30vh;
+      width: 11em;
+      height: 3.8em;
+      background: orange;
+      color: black;
+      font-size: 1em;
+      font-weight: 800;
+      box-shadow: 6px 8px 12px #212121;
+    }
+
+    #buttonid:hover{
+      background: pink;
+    }
+
+    #c-coordinates{
+      margin-left: 39.5vw;
+      margin-top: 8.2vh;
+      font-size: 1.6em;
+      color: yellow;
+      text-shadow: 3px 5px 7px #212121;
+    }
+
+    #b-coordinates{
+      margin-left: 41.5vw;
+      margin-top: 6.9vh;
+      font-size: 2em;
+      color: pink;
+      box-shadow: 10px 10px 12px black;
+      background-color: blue;
+      width: 7.8em;
+    }
+
+  </style>
+  <body>
+
+    <button id="buttonid" type="button" onclick="coordinates()" name="button">Click Here</button>
+
+    <h3 id="c-coordinates"> Pas de coordonnées à copier</h3>
+    <h3 id="b-coordinates"></h3>
+
+
+    <script src="ja.js" charset="utf-8"></script>
+  </body>
+</html>
